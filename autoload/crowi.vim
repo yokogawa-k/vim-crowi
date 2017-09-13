@@ -4,7 +4,7 @@
 let g:crowi#api_url = get(g:, 'crowi#api_url', '')
 let g:crowi#access_token = get(g:, 'crowi#access_token', '')
 let g:crowi#filetypes = get(g:, 'crowi#filetypes', [])
-let g:crowi#open_page = get(g:, 'crowi#open_page', true)
+let g:crowi#open_page = get(g:, 'crowi#open_page', 1)
 let g:crowi#default_create_path = get(g:, 'crowi#default_create_path',
             \ '/user/'.expand('$USER').'/memo/'.strftime("%Y/%m/%d", localtime())
             \ )
